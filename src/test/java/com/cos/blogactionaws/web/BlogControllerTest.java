@@ -17,6 +17,6 @@ public class BlogControllerTest {
 	@Test
 	public void home() {
 		ResponseEntity<String> response = restTemplate.getForEntity("/", String.class);
-		assertEquals("<h1>Home</h1>", response.getBody());
+		assertEquals("<h1>Version 2</h1>", response.getBody());
 	}
 }
