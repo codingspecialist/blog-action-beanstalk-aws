@@ -50,7 +50,7 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: blog-action-beanstalk-aws # 엘리스틱 빈스톡 애플리케이션 이름!
-          environment_name: blogactionbeanstalkaws-prod # 엘리스틱 빈스톡 환경 이름 변경!
+          environment_name: Blogactionbeanstalkaws-prod # 엘리스틱 빈스톡 환경 이름 변경 - 대소문자 구분?
           version_label: github-action-${{steps.current-time.outputs.formattedTime}}
           region: ap-northeast-2
           deployment_package: deploy/deploy.zip
