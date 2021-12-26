@@ -8,6 +8,6 @@ public class BlogController {
 
 	@GetMapping("/")
 	public String home() {
-		return "<h1>Home</h1>";
+		return "<h1>Version 2</h1>";
 	}
 }
